@@ -1,27 +1,25 @@
 # ember-external-link
 
-This README outlines the details of collaborating on this Ember addon.
+An [ember-cli addon](http://www.ember-cli.com/) with a shortcut of _blank HTML link.
 
-## Installation
+## Install in ember-cli application
 
-* `git clone <repository-url>` this repository
-* `cd ember-external-link`
-* `npm install`
-* `bower install`
+In your application's directory:
 
-## Running
+    ember install ember-external-link
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+## Usage
 
-## Running Tests
+    {{#external-link href="http://foo.bar"}}
+        Wow!
+    {{/external-link}}
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+    {{#external-link "http://foo.bar"}}
+        Wow!
+    {{/external-link}}
 
-## Building
+    {{external-link "http://foo.bar"}}
 
-* `ember build`
+## Contribute
 
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+If you want to contribute to this addon, please read the [CONTRIBUTING.md](CONTRIBUTING.md).
