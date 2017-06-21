@@ -5,20 +5,24 @@
   "keywords": [
     "ember-addon"
   ],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "author": "BBVAEngineering",
   "directories": {
     "test": "tests"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://shokmaster@github.com/BBVAEngineering/ember-external-link.git"
+    "url": "git+https://github.com/BBVAEngineering/ember-external-link.git"
   },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
+  "contributors": [{
+    "name": "shokmaster",
+    "email": "shokmaster@gmail.com"
+  }],
   "dependencies": {
     "ember-cli-babel": "5.1.10",
     "ember-cli-htmlbars": "1.1.1"
