@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-external-link'
+	name: 'ember-external-link'
 };
