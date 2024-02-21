@@ -1,3 +1,5 @@
+# DEPRECATED
+
 # ember-external-link 
 
 [![Build Status](https://travis-ci.org/BBVAEngineering/ember-external-link.svg?branch=master)](https://travis-ci.org/BBVAEngineering/ember-external-link)
